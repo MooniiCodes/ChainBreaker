@@ -1,4 +1,4 @@
-from jb.lib import os
+from jb.lib.sh import shtools
 
 # Functions
 def showAlert(title, message):
@@ -19,4 +19,4 @@ if safetyLock == True:
 print("MoonLoader" + version + "\n")
 while True:
   i = input("> ")
-  os.system(i)
+  shtools.shexec(i)
