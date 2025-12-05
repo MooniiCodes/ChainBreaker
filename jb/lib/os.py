@@ -1,4 +1,4 @@
-from ..sh import shtools
+from sh import *
 
 def system(cmd):
   shtools.shexec(cmd)
