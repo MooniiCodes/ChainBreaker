@@ -10,7 +10,7 @@ def showAlert(title, message):
 version = 1.01
 safetyLock = False
 # Loader
-if safetyLock = True:
+if safetyLock == True:
   print("Press EXE 3 times.")
   input()
   input()
