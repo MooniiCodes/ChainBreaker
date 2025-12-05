@@ -1,7 +1,7 @@
 # Functions
 
 def showAlert(title, message):
-  print(f"\n=|{title}|=")
+  print("\n=|" + title + "|=")
   print("==========================")
   print(message)
   print("==========================\n")
@@ -15,7 +15,7 @@ if safetyLock == True:
   input()
   input()
   input()
-print(f"MoonLoader {version}\n")
+print("MoonLoader" + version + "\n")
 while True:
   i = input("> ")
   if i.lower() == "e" or i.lower() == "exit":
