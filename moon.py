@@ -1,7 +1,7 @@
 # Functions
 
 def showAlert(title, message):
-  print("\n=|" + title + "|=")
+  print("\n=|" + title + "|==============================")
   print("==========================")
   print(message)
   print("==========================\n")
