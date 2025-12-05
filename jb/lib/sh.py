@@ -1,7 +1,8 @@
 class shtools:
   def shexec(cmd):
     if cmd == "exit":
-      pass # Do some import stuff later
+      while True:
+        print("Press AC!")
     elif cmd == "test":
       print("Test works!")
     else:
