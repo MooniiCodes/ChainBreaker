@@ -10,10 +10,11 @@ def showAlert(title, message):
 version = 1.01
 safetyLock = False
 # Loader
-print("Press EXE 3 times.")
-input()
-input()
-input()
+if safetyLock = True:
+  print("Press EXE 3 times.")
+  input()
+  input()
+  input()
 print(f"MoonLoader {version}\n")
 while True:
   i = input("> ")
