@@ -1,5 +1,6 @@
-# Functions
+from jb.lib import os
 
+# Functions
 def showAlert(title, message):
   print("\n=|" + title + "|==============================")
   print("==========================")
@@ -18,11 +19,4 @@ if safetyLock == True:
 print("MoonLoader" + version + "\n")
 while True:
   i = input("> ")
-  if i.lower() == "e" or i.lower() == "exit":
-    break
-  elif i.lower() == "hw":
-    print("Hello, world!")
-  elif i.lower() == "example":
-    showAlert("Example", "This is a example alert.")
-  else:
-    print("Invalid command.")
+  os.system(i)
