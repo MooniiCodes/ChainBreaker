@@ -7,7 +7,7 @@ def showAlert(title, message):
   print("==========================\n")
 
 # Configuration
-version = 1.01
+version = "1.01"
 safetyLock = False
 # Loader
 if safetyLock == True:
